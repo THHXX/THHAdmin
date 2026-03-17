@@ -2,46 +2,18 @@
   <div class="message">
     <el-popover placement="bottom" :width="310" trigger="click">
       <template #reference>
-        <el-badge :value="5" class="item">
+        <el-badge :value="1" class="item">
           <i :class="'iconfont icon-xiaoxi'" class="toolBar-icon"></i>
         </el-badge>
       </template>
       <el-tabs v-model="activeName">
-        <el-tab-pane label="通知(5)" name="first">
+        <el-tab-pane label="通知(1)" name="first">
           <div class="message-list">
             <div class="message-item">
               <img src="@/assets/images/msg01.png" alt="" class="message-icon" />
               <div class="message-content">
-                <span class="message-title">一键三连 Geeker-Admin 🧡</span>
-                <span class="message-date">一分钟前</span>
-              </div>
-            </div>
-            <div class="message-item">
-              <img src="@/assets/images/msg02.png" alt="" class="message-icon" />
-              <div class="message-content">
-                <span class="message-title">一键三连 Geeker-Admin 💙</span>
-                <span class="message-date">一小时前</span>
-              </div>
-            </div>
-            <div class="message-item">
-              <img src="@/assets/images/msg03.png" alt="" class="message-icon" />
-              <div class="message-content">
-                <span class="message-title">一键三连 Geeker-Admin 💚</span>
-                <span class="message-date">半天前</span>
-              </div>
-            </div>
-            <div class="message-item">
-              <img src="@/assets/images/msg04.png" alt="" class="message-icon" />
-              <div class="message-content">
-                <span class="message-title">一键三连 Geeker-Admin 💜</span>
-                <span class="message-date">一星期前</span>
-              </div>
-            </div>
-            <div class="message-item">
-              <img src="@/assets/images/msg05.png" alt="" class="message-icon" />
-              <div class="message-content">
-                <span class="message-title">一键三连 Geeker-Admin 💛</span>
-                <span class="message-date">一个月前</span>
+                <span class="message-title">欢迎 谭海华 登录！</span>
+                <span class="message-date">刚刚</span>
               </div>
             </div>
           </div>

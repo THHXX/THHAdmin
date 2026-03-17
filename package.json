@@ -1,19 +1,13 @@
 {
-  "name": "THH",
+  "name": "我的后台系统",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.2.0",
   "type": "module",
-  "description": "Vue3 后台管理系统",
-  "author": "谭海华",
+  "description": "我的后台系统",
+  "author": {
+    "name": "谭海华"
+  },
   "license": "MIT",
-  "homepage": "https://github.com/HalseySpicy/Geeker-Admin",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:HalseySpicy/Geeker-Admin.git"
-  },
-  "bugs": {
-    "url": "https://github.com/HalseySpicy/Geeker-Admin/issues"
-  },
   "scripts": {
     "dev": "vite",
     "serve": "vite",
